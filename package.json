@@ -1,8 +1,8 @@
 {
-  "name": "learn-webpack",
+  "name": "learn-template",
   "version": "1.0.0",
   "main": "server.js",
-  "repository": "git@github.com:Zacaria/learn-webpack.git",
+  "repository": "git@github.com:Zacaria/template-reveal.git",
   "author": "Zacaria <havesomecode@gmail.com>",
   "license": "Apache-2.0",
   "scripts": {
@@ -14,7 +14,7 @@
     "surge": "surge -d $npm_package_config_deploy_domain -p docs/_static"
   },
   "config": {
-    "deploy_domain": "havesome-webpack.surge.sh"
+    "deploy_domain": "havesome-thing.surge.sh"
   },
   "devDependencies": {
     "rimraf": "3.0.2",
